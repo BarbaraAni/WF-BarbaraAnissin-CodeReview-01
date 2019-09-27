@@ -1,9 +1,11 @@
+/*DESKTOP*/
+
 * {
 	margin:0;
 	padding:0;
 }
 body {
-	width: 850px;
+	width: 800px;
 	font-family: 'Open Sans Condensed';
 	font-size: 1.3em;
 }
@@ -45,11 +47,23 @@ body .p {
 h3{
 	color: #6B6B6B;
 	background-color: #DEDEDE;
+	padding-left: 10px;
+}
+#heading {
+	width: 610px;
 }
 #content {
 	margin: 0 30px;
 }
-______________
+.part1 article {
+	height: 190px;
+	width: 80%;
+}
+.part2 article {
+	height: 230px;
+	width: 80%;
+}
+____
 .flexbox {
 	display: flex;
 }
@@ -61,6 +75,7 @@ ______________
 	width: 200px;
 	height: 120px;
 	margin-top: 10px;
+	margin-right: 10px;
 }
 .img img {
 	width: 200px;
@@ -72,41 +87,53 @@ ______________
 .img p {
 	font-size: 0.75em;
 	position: absolute; 
-	top: 115%;
-	height: 60px; 
+	top: 78%;
+	height: 55px; 
 	width: 195px;
 	padding-left: 5px;
 	transform: translate(0, -50%); 
 }
 .img2 img {
-	width: 250px;
+	width: 290px;
+	margin: 10px 35px 0px 0px;
 }
 .img2 p {
 	position: absolute; 
-	top: 115%;
+	top: 79%;
+	padding-left: 5px;
 	height: 60px; 
-	width: 250px;
+	width: 285px;
 	transform: translate(0, -50%); 
+	font-size: 1.05em;
 }
 .sidebanner {
-	width: 30%;
+	float: right;
+	margin: 10px 0px 0px 10px;
 }
-
-____________________
-.middle {
+.sidebanner #first {
+	width: 90px;
+	height: 390px;
+}
+.sidebanner #second {
+	width: 90px;
+	height: 433px;
+	margin-bottom: 60px;
+}
+div.middle {
 	display: flex;
 	justify-content:center;
+	align-content: center;
 }
 footer {
 	background-color: #0F0F0F;
 	height: 140px;
 	color: white;
 	display: flex;
-	width: 850px;
+	width: 800px;
 }
 footer li {
 	float: left;
-	padding: 0px 10px;
+	padding: 3px 15px;
 	list-style: none;
 	font-size: 0.9em;
 }
@@ -136,4 +163,7 @@ footer p {
 .bottom img {
 	align-self: center;
 	float: right;
+	padding-right: 15px;
 }
+
+/* MOBILE */
